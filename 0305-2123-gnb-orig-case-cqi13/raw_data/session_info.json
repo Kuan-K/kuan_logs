@@ -1,0 +1,46 @@
+{
+    "env_start_epoch": 1772717040.0,
+    "date": "2026-03-05 22:28:00",
+    "env_config": {
+        "name": "cqi13",
+        "script_mode": "monolithic-orig",
+        "enabled": true,
+        "stop_mode": "all",
+        "auto_stop": "0",
+        "active_selection": {
+            "pc": "lenovo_pc",
+            "ue": "samsung_ue"
+        },
+        "tests": {
+            "iperf": {
+                "settings": {
+                    "duration": 600,
+                    "length": 1300
+                },
+                "DL": {
+                    "udp": [
+                        "100",
+                        "200",
+                        "300",
+                        "400",
+                        "500",
+                        "600"
+                    ],
+                    "tcp": []
+                },
+                "UL": {
+                    "udp": [],
+                    "tcp": []
+                }
+            },
+            "ping": {
+                "enabled": true
+            }
+        },
+        "settings": {
+            "break_duration": 5
+        },
+        "__loop_idx__": 1,
+        "__total_orig_envs__": 59
+    }
+}
