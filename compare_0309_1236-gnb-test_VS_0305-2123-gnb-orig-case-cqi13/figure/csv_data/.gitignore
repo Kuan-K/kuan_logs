@@ -1,3 +1,0 @@
-# Auto-generated: exclude large CSV exports from git
-*
-!.gitignore
