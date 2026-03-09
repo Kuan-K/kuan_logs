@@ -1,0 +1,19 @@
+{
+  "type": "compare",
+  "created_at": "2026-03-09T13:37:45.069456",
+  "version": "2.0",
+  "sources": [
+    "unknown",
+    "0305-2123-gnb-orig-case-cqi13"
+  ],
+  "source_paths": [
+    "/app/experiment_data/worktrees/rapp-result-monolithic/0309_1236-gnb-test/raw_data",
+    "/app/experiment_data/worktrees/rapp-result-monolithic/0305-2123-gnb-orig-case-cqi13/raw_data"
+  ],
+  "source_sessions": [
+    "0309_1236-gnb-test",
+    "0305-2123-gnb-orig-case-cqi13"
+  ],
+  "file_tag": "compare_0309_1236-gnb-test_VS_0305-2123-gnb-orig-case-cqi13",
+  "replot_capable": true
+}
